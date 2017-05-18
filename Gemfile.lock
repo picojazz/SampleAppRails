@@ -4,6 +4,13 @@ GIT
   specs:
     bcrypt (3.1.11)
 
+GIT
+  remote: https://github.com/deivid-rodriguez/byebug.git
+  revision: a1789d6fd94fb4774664b5e6790cb4986f797aac
+  branch: master
+  specs:
+    byebug (9.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,7 +168,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt!
   bootstrap-sass (= 3.3.6)
-  byebug
+  byebug!
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   jquery-rails

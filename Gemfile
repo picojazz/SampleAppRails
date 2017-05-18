@@ -40,7 +40,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+  gem 'byebug', github: 'deivid-rodriguez/byebug', branch: 'master'
   gem 'sqlite3'
 end
 
